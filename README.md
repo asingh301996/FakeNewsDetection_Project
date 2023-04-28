@@ -5,7 +5,7 @@ To accomplish this task, supervised machine learning techniques and natural lang
 NLP methods such as bag-of-words, n-grams, and word embeddings will be used to represent the text data in a machine-readable format. The performance of the classification model will be evaluated using standard evaluation metrics such as accuracy, precision, recall, and F1 score.
 The ultimate goal of this project is to develop a reliable and effective model that can classify news articles as agreed, disagreed, or unrelated to a given fake news article, thus aiding in the detection of fake news and misinformation in social media.
 
-2.DATA COLLECTION & OBJECTIVES 
+2.DATA COLLECTION & OBJECTIVES
 2.1.How we preprocessed the data initially
 • Initially, Data preprocessing is an essential step in any machine learning project, as it involves cleaning and transforming raw data into a format that can be used by machine learning models.
 • The first step in data preprocessing for this project involves removing stop words and punctuations from the news article headlines. Stop words are common words like "the", "a", "an", etc., that do not carry much meaning in the context of the text. Punctuations like commas, periods, and question marks also do not add much value to the text. Therefore, removing them can help reduce the noise in the data.
