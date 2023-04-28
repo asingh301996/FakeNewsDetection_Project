@@ -14,7 +14,7 @@ The ultimate goal of this project is to develop a reliable and effective model t
 • Finally, lemmatization is performed using the WordNetLemmatizer from nltk.stem. Lemmatization is similar to stemming, but instead of reducing words to their root form, it converts them to their base or dictionary form. This can help capture the meaning of the words more accurately.
 • The preprocessed data is then saved in new CSV files named train_preprocessed.csv and test_preprocessed.csv, after dropping the title1_id and title2_id columns. This data can be used for training and testing machine learning models for fake news detection.
 
-2.2. Base Model Creation
+2. Base Model Creation
 2.2.1 Naïve Bayes Classifier & Logistic Regression (Approach I & II)
 The labels for the test data were predicted using the trained model and stored in a pandas data frame along with their corresponding IDs. Pandas is a data manipulation library in Python that allows for easy handling of tabular data.
 • Finally, the resulting data frame was saved in a CSV file for further analysis or visualization.
